@@ -152,11 +152,11 @@ main .logo .logos{
           align-items: center;
      }
      main section .text .input input[type='text']{
-          width: 50%;
+          width: 65%;
           padding: 10px;
      }
      main section .text .input input[type='submit']{
-          width: 25%;
+          width: 35%;
           padding: 10px;
      }
      main section .img{
@@ -173,5 +173,8 @@ main .logo .logos{
      }
      main .logo .logos{
           gap: 4px;
+     }
+     main .logo .logos img{
+          width: 10%;
      }
 }
