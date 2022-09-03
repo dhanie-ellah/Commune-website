@@ -8,3 +8,16 @@ menu.addEventListener('click', () => {
           links.style.display = 'none'
      }
 })
+
+const form = document.getElementById('form')
+form.addEventListener('submit', (event) => {
+     event.preventDefault()
+
+     let formValue = document.getElementById('email').value
+     let errorMessage = document.getElementById('error')
+     if (formValue == '') {
+          errorMessage.innerHTML = 'Please enter your email address'
+          errorMessage.style.color = 'red'
+          errorMessage.style.fontSize = '10px'
+     }
+})
