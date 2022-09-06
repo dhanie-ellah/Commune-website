@@ -32,6 +32,7 @@ main nav .links{
 main nav .links a{
      text-decoration: none;
      color: black;
+     cursor: pointer;
 }
 main nav .links a:last-child{
      background-color: #372865;
@@ -84,6 +85,7 @@ main section .text .input input[type='submit']{
      border: none;
      color: white;
      border-radius: 2px;
+     cursor: pointer;
 }
 main section .img{
      width: 30%;

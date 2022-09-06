@@ -14,10 +14,14 @@ form.addEventListener('submit', (event) => {
      event.preventDefault()
 
      let formValue = document.getElementById('email').value
-     let errorMessage = document.getElementById('error')
+     let Message = document.getElementById('error')
      if (formValue == '') {
-          errorMessage.innerHTML = 'Please enter your email address'
-          errorMessage.style.color = 'red'
-          errorMessage.style.fontSize = '10px'
+          Message.innerHTML = 'Please enter your email address'
+          Message.style.color = 'red'
+          Message.style.fontSize = '10px'
+     } else if (formValue != '') {
+          Message.innerHTML = 'You have been added to the waitlist'
+          Message.style.color = 'green'
+          Message.style.fontSize = '10px'
      }
 })
